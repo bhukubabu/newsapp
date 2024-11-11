@@ -38,4 +38,4 @@ if city!='' and news_type!='':
                                           url=articles[i]['url']
                                           st.markdown(f"{url}")
 else:
-      st.error("Please choose the correct time")
+    st.markdown("Please choose the correct time")
